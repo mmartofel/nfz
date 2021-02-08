@@ -1,4 +1,4 @@
-FROM registry.redhat.io/ubi8/openjdk-11
+FROM adoptopenjdk/openjdk11:ubi
 VOLUME /tmp
 ARG JAR_FILE
 COPY target/*.jar app.jar

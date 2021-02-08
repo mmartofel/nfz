@@ -1,4 +1,4 @@
-FROM openjdk:11-jdk-alpine
+FROM registry.redhat.io/ubi8/openjdk-11
 VOLUME /tmp
 ARG JAR_FILE
 COPY target/*.jar app.jar
